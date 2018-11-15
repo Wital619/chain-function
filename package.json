@@ -1,0 +1,31 @@
+{
+  "name": "chain-function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server -d",
+    "build": "webpack -d",
+    "serve": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wital619/chain-function.git"
+  },
+  "keywords": [],
+  "author": "Vitaliy Pogoretskyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wital619/chain-function/issues"
+  },
+  "homepage": "https://github.com/Wital619/chain-function#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.6.0",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
